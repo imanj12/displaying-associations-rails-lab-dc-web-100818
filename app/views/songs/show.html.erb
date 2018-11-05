@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1><%= @song.title %></h1>
+    <p><%= link_to @song.artist.name, artist_path(@song.artist.id) %></p>
+  </body>
+</html>
